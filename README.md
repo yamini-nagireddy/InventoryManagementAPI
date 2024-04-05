@@ -11,5 +11,5 @@ Supports Create, Read, Update, and Delete operations for managing inventory item
 ASP.NET Core \
 C# \
 Entity Framwork Core \
-AutoMapper \
+AutoMapper 
 
