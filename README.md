@@ -10,6 +10,6 @@ Supports Create, Read, Update, and Delete operations for managing inventory item
 ## Technologies Used
 ASP.NET Core \
 C# \
-Entity Framwork Core \
+Entity Framework Core \
 AutoMapper 
 
