@@ -1,0 +1,36 @@
+@InventoryAPI_HostAddress = http://localhost:5043
+
+GET {{InventoryAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{InventoryAPI_HostAddress}}/api/categories/
+Accept: : application/application/json
+
+###
+
+Post {{InventoryAPI_HostAddress}}/api/categories/
+Content-Type: application/json
+
+{
+    "name": "Bakery"
+}
+
+###
+
+Put {{InventoryAPI_HostAddress}}/api/categories/102
+Content-Type: application/json
+
+{
+    "name": "Former Bakery"
+}
+
+###
+
+DELETE  {{InventoryAPI_HostAddress}}/api/categories/102
+Content-Type: application/json
+
+
+###
+
